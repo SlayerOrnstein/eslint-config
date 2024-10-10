@@ -20,6 +20,7 @@
   "author": "TobiTenno <tobiah@pm.me>",
   "exports": {
     ".": "./configs/.eslintrc.js",
+    "./biome": "./configs/biome.json",
     "./esm": "./configs/esm.js",
     "./prettier": "./configs/prettier.config.js",
     "./typescript": "./configs/typescript.js",
@@ -43,6 +44,7 @@
   },
   "prettier": "./configs/prettier.config.js",
   "devDependencies": {
+    "@biomejs/biome": "1.9.3",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "husky": "^9.0.11",
